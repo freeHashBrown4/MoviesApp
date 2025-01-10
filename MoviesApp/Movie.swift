@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Movie: Identifiable {
-let id: UUID
+struct Movie: Identifiable, Codable {
+let id: String
 let title: String
 let genre: String
 let releaseYear: Int
